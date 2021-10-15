@@ -6,14 +6,18 @@
 
 ```
 docker build -t <tag> .
-ex:
+```
+Example:
+```
 docker build -t iwordpress-app . 
 ```
 
 # How to run this image ?
 ```
 docker run -p <nodeport>:<containerport> -d <conatiner-name>
-ex:
+```
+Example:
+```
 docker run -p 80:80 -d cwordpress-app 
 ```
 
@@ -22,7 +26,9 @@ docker run -p 80:80 -d cwordpress-app
 ## Tag your image
 ```
 docker tag <localimage>:<tag> <dockerhub-username>:<tag>
+```
 
-ex:
+Example:
+```
 docker tag wordpress:php7.1-apache javeedsocial/iwordpress-app:v1.0
 ```
