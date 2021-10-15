@@ -32,3 +32,12 @@ Example:
 ```
 docker tag wordpress:php7.1-apache javeedsocial/iwordpress-app:v1.0
 ```
+
+##Push the image to remote repo on dockerhub 
+```
+docker push <dockerhub-username>/<remoteimage>:<tag>
+```
+Example
+```
+docker push javeedsocial/iwordpress-app:v1.0
+```
