@@ -9,4 +9,6 @@ docker build -t iwordpress-app .
 ```
 
 # How to run this image ?
+```
 docker run -p 80:80 -d cwordpress-app 
+```
