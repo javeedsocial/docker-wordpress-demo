@@ -25,7 +25,7 @@ docker run -p 80:80 -d cwordpress-app
 
 ## Tag your image
 ```
-docker tag <localimage>:<tag> <dockerhub-username>:<tag>
+docker tag <localimage>:<tag> <dockerhub-username>/<remoteimage>:<tag>
 ```
 
 Example:
